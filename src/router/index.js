@@ -76,10 +76,6 @@ const router = createRouter({
           path: 'news',
           component: () => import('../views/admin/AminNews.vue')
         },
-        {
-          path: ':pathMatch(.*)*',
-          component: () => import('../views/NotFound.vue'),
-        }
       ]
     },
 
