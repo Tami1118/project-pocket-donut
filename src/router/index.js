@@ -23,7 +23,7 @@ const router = createRouter({
         },
         {
           path: 'product/:id',
-          component: () => import('../views/front/UserArticleDetail.vue')
+          component: () => import('../views/front/UserProductDetail.vue')
         },
         {
           path: 'news',
@@ -44,10 +44,6 @@ const router = createRouter({
         {
           path: 'complete',
           component: () => import('../views/front/UserComplete.vue')
-        },
-        {
-          path: ':pathMatch(.*)*',
-          component: () => import('../views/NotFound.vue'),
         },
         {
           path: 'login',
@@ -74,7 +70,7 @@ const router = createRouter({
         },
         {
           path: 'news',
-          component: () => import('../views/admin/AminNews.vue')
+          component: () => import('../views/admin/AdminNews.vue')
         },
       ]
     },
