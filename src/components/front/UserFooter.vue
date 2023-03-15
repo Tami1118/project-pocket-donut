@@ -3,11 +3,11 @@
     <div class="footer-info">
       <div class="row align-items-center">
         <div class="col-12 col-sm-3 d-flex justify-content-center justify-content-sm-start">
-          <img
+          <!-- <img
             class="footer-logo"
             src="../../../public/pocket donut_logo(w).png"
             alt="pocket donut logo"
-          />
+          /> -->
         </div>
         <div class="col-12 col-sm-9">
           <ul class="nav d-flex justify-content-center justify-content-sm-end text-white">

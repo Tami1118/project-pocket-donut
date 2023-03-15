@@ -4,11 +4,11 @@
     <nav class="navbar navbar-expand-lg px-5">
       <div class="container-fluid">
         <router-link to="/" class="logo">
-          <img
+          <!-- <img
             class="logo"
             src="../../../public/pocket donut_logo(w).png"
             alt="pocket donut logo"
-          />
+          /> -->
         </router-link>
         <!-- 漢堡按鈕 -->
         <button
